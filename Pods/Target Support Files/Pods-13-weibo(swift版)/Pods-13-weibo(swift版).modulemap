@@ -1,0 +1,6 @@
+framework module Pods_13_weibo_swift__ {
+  umbrella header "Pods-13-weibo(swift版)-umbrella.h"
+
+  export *
+  module * { export * }
+}

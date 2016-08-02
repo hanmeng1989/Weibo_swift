@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FE0C26FEC35493AA83725DD /* Pods_13_weibo_swift__.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F51896BE5CDCD601BA10933 /* Pods_13_weibo_swift__.framework */; };
+		EE0865A61D2CCB59001B0586 /* HMPhotoBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0865A51D2CCB59001B0586 /* HMPhotoBrowserController.swift */; };
+		EE09BD5E1D2B90A400FF6380 /* HMDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE09BD5D1D2B90A400FF6380 /* HMDBManager.swift */; };
+		EE0EB2251D26651900E45D46 /* HMComposePictureCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EB2241D26651900E45D46 /* HMComposePictureCollectionCell.swift */; };
+		EE0F3A6A1D29079200DFFCDE /* HMEmoticonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0F3A691D29079200DFFCDE /* HMEmoticonButton.swift */; };
+		EE10A84A1D1F604A0027257A /* HMUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10A8491D1F604A0027257A /* HMUserModel.swift */; };
+		EE10A84C1D1F73D30027257A /* HMWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10A84B1D1F73D30027257A /* HMWelcomeViewController.swift */; };
+		EE13236C1D1E53C300CD26F4 /* HMBaseTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE13236B1D1E53C300CD26F4 /* HMBaseTableController.swift */; };
+		EE13236E1D1E53F400CD26F4 /* HMVistorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE13236D1D1E53F400CD26F4 /* HMVistorView.swift */; };
+		EE1323701D1EA2D100CD26F4 /* HMHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE13236F1D1EA2D100CD26F4 /* HMHTTPClient.swift */; };
+		EE1323721D1EB97800CD26F4 /* HMOAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1323711D1EB97800CD26F4 /* HMOAuthViewController.swift */; };
+		EE145B4F1D27D2E80048C307 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE145B4E1D27D2E70048C307 /* Emoticons.bundle */; };
+		EE145B511D27E1C40048C307 /* HMEmoticonCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE145B501D27E1C40048C307 /* HMEmoticonCollectionView.swift */; };
+		EE145B531D27F54E0048C307 /* HMEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE145B521D27F54E0048C307 /* HMEmoticon.swift */; };
+		EE145B551D27F55D0048C307 /* HMEmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE145B541D27F55D0048C307 /* HMEmoticonManager.swift */; };
+		EE1531691D2A52D100BBC0BC /* HMTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1531681D2A52D100BBC0BC /* HMTextAttachment.swift */; };
+		EE167E811D25358700E698B5 /* compose.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE167E801D25358600E698B5 /* compose.plist */; };
+		EE167E831D253A6500E698B5 /* HMComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE167E821D253A6500E698B5 /* HMComposeView.swift */; };
+		EE16AC7D1D23FD4F0034242D /* HMHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16AC761D23FD4F0034242D /* HMHomeTableViewCell.swift */; };
+		EE16AC7E1D23FD4F0034242D /* HMOriginalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16AC771D23FD4F0034242D /* HMOriginalView.swift */; };
+		EE16AC7F1D23FD4F0034242D /* HMPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16AC781D23FD4F0034242D /* HMPictureView.swift */; };
+		EE16AC801D23FD4F0034242D /* HMRetweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16AC791D23FD4F0034242D /* HMRetweetView.swift */; };
+		EE16AC811D23FD4F0034242D /* HMToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16AC7A1D23FD4F0034242D /* HMToolBarView.swift */; };
+		EE16AC821D23FD4F0034242D /* HMRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16AC7C1D23FD4F0034242D /* HMRefreshControl.swift */; };
+		EE173B631D1D490500CED60E /* HMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE173B621D1D490500CED60E /* HMTabBarController.swift */; };
+		EE173B651D1D49B900CED60E /* HMFindTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE173B641D1D49B900CED60E /* HMFindTableController.swift */; };
+		EE173B671D1D49CA00CED60E /* HMHomeTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE173B661D1D49CA00CED60E /* HMHomeTableController.swift */; };
+		EE173B691D1D49E000CED60E /* HMMessageTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE173B681D1D49E000CED60E /* HMMessageTableController.swift */; };
+		EE173B6B1D1D49FD00CED60E /* HMSettingTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE173B6A1D1D49FD00CED60E /* HMSettingTableController.swift */; };
+		EE173B6E1D1D531600CED60E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE173B6D1D1D531600CED60E /* Constant.swift */; };
+		EE173BA91D1D85E300CED60E /* HMTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE173BA81D1D85E300CED60E /* HMTabBar.swift */; };
+		EE1F2AAB1D1D072F007FDA54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F2AAA1D1D072F007FDA54 /* AppDelegate.swift */; };
+		EE1F2AB21D1D072F007FDA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1F2AB11D1D072F007FDA54 /* Assets.xcassets */; };
+		EE1F2AB51D1D072F007FDA54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1F2AB31D1D072F007FDA54 /* LaunchScreen.storyboard */; };
+		EE20708A1D2D2B0400B0D6ED /* HMPhotoBrowserCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2070891D2D2B0400B0D6ED /* HMPhotoBrowserCollectionView.swift */; };
+		EEA5621D1D225C7400435E8E /* HMPhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA5621C1D225C7400435E8E /* HMPhotoViewModel.swift */; };
+		EEBA4BAE1D1FF8FE0012FE20 /* HMOauthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBA4BAD1D1FF8FE0012FE20 /* HMOauthViewModel.swift */; };
+		EEBA4BB01D202DB20012FE20 /* HMStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBA4BAF1D202DB20012FE20 /* HMStatusModel.swift */; };
+		EEBA4BB21D20336A0012FE20 /* HMStatusListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBA4BB11D20336A0012FE20 /* HMStatusListViewModel.swift */; };
+		EEBA4BB41D2037150012FE20 /* HMStatusCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBA4BB31D2037150012FE20 /* HMStatusCellViewModel.swift */; };
+		EEBA4BB61D203E450012FE20 /* HMStatusUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBA4BB51D203E450012FE20 /* HMStatusUserModel.swift */; };
+		EEF305901D260D21007159C7 /* HMPublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3058F1D260D21007159C7 /* HMPublishViewController.swift */; };
+		EEF305921D260D55007159C7 /* HMHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF305911D260D55007159C7 /* HMHolderTextView.swift */; };
+		EEF305941D26273A007159C7 /* HMComposePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF305931D26273A007159C7 /* HMComposePictureView.swift */; };
+		EEF492B01D2755330083B8C3 /* HMEmoticonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF492AF1D2755330083B8C3 /* HMEmoticonView.swift */; };
+		EEF492B21D275AA10083B8C3 /* HMEmoticonToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF492B11D275AA10083B8C3 /* HMEmoticonToolbar.swift */; };
+		EEF532D71D24F0BE0078D82C /* HMComposeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF532D61D24F0BE0078D82C /* HMComposeButton.swift */; };
+		EEF624101D20C943004AC142 /* HMPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6240F1D20C943004AC142 /* HMPhotoModel.swift */; };
+		EEF6F23C1D37F2710092ED98 /* HMProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6F23B1D37F2710092ED98 /* HMProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F51896BE5CDCD601BA10933 /* Pods_13_weibo_swift__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_13_weibo_swift__.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A96B884D9EC99552A3C3831 /* Pods-13-weibo(swift版).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-13-weibo(swift版).debug.xcconfig"; path = "Pods/Target Support Files/Pods-13-weibo(swift版)/Pods-13-weibo(swift版).debug.xcconfig"; sourceTree = "<group>"; };
+		B235CE0FD6D1632AE5FD8B99 /* Pods-13-weibo(swift版).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-13-weibo(swift版).release.xcconfig"; path = "Pods/Target Support Files/Pods-13-weibo(swift版)/Pods-13-weibo(swift版).release.xcconfig"; sourceTree = "<group>"; };
+		EE0865A51D2CCB59001B0586 /* HMPhotoBrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMPhotoBrowserController.swift; sourceTree = "<group>"; };
+		EE09BD5D1D2B90A400FF6380 /* HMDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMDBManager.swift; sourceTree = "<group>"; };
+		EE0EB2241D26651900E45D46 /* HMComposePictureCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMComposePictureCollectionCell.swift; sourceTree = "<group>"; };
+		EE0F3A691D29079200DFFCDE /* HMEmoticonButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMEmoticonButton.swift; sourceTree = "<group>"; };
+		EE10A8491D1F604A0027257A /* HMUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMUserModel.swift; sourceTree = "<group>"; };
+		EE10A84B1D1F73D30027257A /* HMWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMWelcomeViewController.swift; sourceTree = "<group>"; };
+		EE13236B1D1E53C300CD26F4 /* HMBaseTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMBaseTableController.swift; sourceTree = "<group>"; };
+		EE13236D1D1E53F400CD26F4 /* HMVistorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMVistorView.swift; sourceTree = "<group>"; };
+		EE13236F1D1EA2D100CD26F4 /* HMHTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMHTTPClient.swift; sourceTree = "<group>"; };
+		EE1323711D1EB97800CD26F4 /* HMOAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMOAuthViewController.swift; sourceTree = "<group>"; };
+		EE145B4E1D27D2E70048C307 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		EE145B501D27E1C40048C307 /* HMEmoticonCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMEmoticonCollectionView.swift; sourceTree = "<group>"; };
+		EE145B521D27F54E0048C307 /* HMEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMEmoticon.swift; sourceTree = "<group>"; };
+		EE145B541D27F55D0048C307 /* HMEmoticonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMEmoticonManager.swift; sourceTree = "<group>"; };
+		EE1531681D2A52D100BBC0BC /* HMTextAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTextAttachment.swift; sourceTree = "<group>"; };
+		EE167E801D25358600E698B5 /* compose.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = compose.plist; sourceTree = "<group>"; };
+		EE167E821D253A6500E698B5 /* HMComposeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMComposeView.swift; sourceTree = "<group>"; };
+		EE16AC761D23FD4F0034242D /* HMHomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMHomeTableViewCell.swift; sourceTree = "<group>"; };
+		EE16AC771D23FD4F0034242D /* HMOriginalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMOriginalView.swift; sourceTree = "<group>"; };
+		EE16AC781D23FD4F0034242D /* HMPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMPictureView.swift; sourceTree = "<group>"; };
+		EE16AC791D23FD4F0034242D /* HMRetweetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMRetweetView.swift; sourceTree = "<group>"; };
+		EE16AC7A1D23FD4F0034242D /* HMToolBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMToolBarView.swift; sourceTree = "<group>"; };
+		EE16AC7C1D23FD4F0034242D /* HMRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMRefreshControl.swift; sourceTree = "<group>"; };
+		EE173B621D1D490500CED60E /* HMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTabBarController.swift; sourceTree = "<group>"; };
+		EE173B641D1D49B900CED60E /* HMFindTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMFindTableController.swift; sourceTree = "<group>"; };
+		EE173B661D1D49CA00CED60E /* HMHomeTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMHomeTableController.swift; sourceTree = "<group>"; };
+		EE173B681D1D49E000CED60E /* HMMessageTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HMMessageTableController.swift; path = ../Login/HMMessageTableController.swift; sourceTree = "<group>"; };
+		EE173B6A1D1D49FD00CED60E /* HMSettingTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSettingTableController.swift; sourceTree = "<group>"; };
+		EE173B6D1D1D531600CED60E /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		EE173BA81D1D85E300CED60E /* HMTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTabBar.swift; sourceTree = "<group>"; };
+		EE1F2AA71D1D072F007FDA54 /* 13-weibo(swift版).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "13-weibo(swift版).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1F2AAA1D1D072F007FDA54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE1F2AB11D1D072F007FDA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE1F2AB41D1D072F007FDA54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE1F2AB61D1D072F007FDA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2070891D2D2B0400B0D6ED /* HMPhotoBrowserCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMPhotoBrowserCollectionView.swift; sourceTree = "<group>"; };
+		EEA5621C1D225C7400435E8E /* HMPhotoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMPhotoViewModel.swift; sourceTree = "<group>"; };
+		EEBA4BAD1D1FF8FE0012FE20 /* HMOauthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMOauthViewModel.swift; sourceTree = "<group>"; };
+		EEBA4BAF1D202DB20012FE20 /* HMStatusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMStatusModel.swift; sourceTree = "<group>"; };
+		EEBA4BB11D20336A0012FE20 /* HMStatusListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMStatusListViewModel.swift; sourceTree = "<group>"; };
+		EEBA4BB31D2037150012FE20 /* HMStatusCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMStatusCellViewModel.swift; sourceTree = "<group>"; };
+		EEBA4BB51D203E450012FE20 /* HMStatusUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMStatusUserModel.swift; sourceTree = "<group>"; };
+		EEF3058F1D260D21007159C7 /* HMPublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMPublishViewController.swift; sourceTree = "<group>"; };
+		EEF305911D260D55007159C7 /* HMHolderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HMHolderTextView.swift; path = ../UIs/Home/Publish/HMHolderTextView.swift; sourceTree = "<group>"; };
+		EEF305931D26273A007159C7 /* HMComposePictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMComposePictureView.swift; sourceTree = "<group>"; };
+		EEF492AF1D2755330083B8C3 /* HMEmoticonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMEmoticonView.swift; sourceTree = "<group>"; };
+		EEF492B11D275AA10083B8C3 /* HMEmoticonToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMEmoticonToolbar.swift; sourceTree = "<group>"; };
+		EEF532D61D24F0BE0078D82C /* HMComposeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMComposeButton.swift; sourceTree = "<group>"; };
+		EEF6240F1D20C943004AC142 /* HMPhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMPhotoModel.swift; sourceTree = "<group>"; };
+		EEF6F23B1D37F2710092ED98 /* HMProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE1F2AA41D1D072F007FDA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE0C26FEC35493AA83725DD /* Pods_13_weibo_swift__.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		678EC6F81F77A1FA02BE0C78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A96B884D9EC99552A3C3831 /* Pods-13-weibo(swift版).debug.xcconfig */,
+				B235CE0FD6D1632AE5FD8B99 /* Pods-13-weibo(swift版).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9C502A8A6AA1719B85EC999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F51896BE5CDCD601BA10933 /* Pods_13_weibo_swift__.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE16AC751D23FD4F0034242D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EE16AC761D23FD4F0034242D /* HMHomeTableViewCell.swift */,
+				EE16AC771D23FD4F0034242D /* HMOriginalView.swift */,
+				EE16AC781D23FD4F0034242D /* HMPictureView.swift */,
+				EE16AC791D23FD4F0034242D /* HMRetweetView.swift */,
+				EE16AC7A1D23FD4F0034242D /* HMToolBarView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EE16AC7B1D23FD4F0034242D /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				EE16AC7C1D23FD4F0034242D /* HMRefreshControl.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		EE1F2A9E1D1D072F007FDA54 = {
+			isa = PBXGroup;
+			children = (
+				EE1F2AA91D1D072F007FDA54 /* 13-weibo(swift版) */,
+				EE1F2AA81D1D072F007FDA54 /* Products */,
+				678EC6F81F77A1FA02BE0C78 /* Pods */,
+				D9C502A8A6AA1719B85EC999 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1F2AA81D1D072F007FDA54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F2AA71D1D072F007FDA54 /* 13-weibo(swift版).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1F2AA91D1D072F007FDA54 /* 13-weibo(swift版) */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F2AC91D1D2824007FDA54 /* ViewModel */,
+				EE1F2AC31D1D281F007FDA54 /* UIs */,
+				EE1F2ABD1D1D2818007FDA54 /* Model */,
+				EE1F2ABC1D1D2810007FDA54 /* Common */,
+				EE1F2AAA1D1D072F007FDA54 /* AppDelegate.swift */,
+				EE1F2AB11D1D072F007FDA54 /* Assets.xcassets */,
+				EE1F2AB31D1D072F007FDA54 /* LaunchScreen.storyboard */,
+				EE167E801D25358600E698B5 /* compose.plist */,
+				EE1F2AB61D1D072F007FDA54 /* Info.plist */,
+			);
+			path = "13-weibo(swift版)";
+			sourceTree = "<group>";
+		};
+		EE1F2ABC1D1D2810007FDA54 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EEF305911D260D55007159C7 /* HMHolderTextView.swift */,
+				EE173B621D1D490500CED60E /* HMTabBarController.swift */,
+				EE173B6D1D1D531600CED60E /* Constant.swift */,
+				EE173BA81D1D85E300CED60E /* HMTabBar.swift */,
+				EE13236B1D1E53C300CD26F4 /* HMBaseTableController.swift */,
+				EE13236F1D1EA2D100CD26F4 /* HMHTTPClient.swift */,
+				EE09BD5D1D2B90A400FF6380 /* HMDBManager.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EE1F2ABD1D1D2818007FDA54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F2ABE1D1D2818007FDA54 /* Find */,
+				EE1F2ABF1D1D2818007FDA54 /* Home */,
+				EE1F2AC01D1D2818007FDA54 /* Login */,
+				EE1F2AC11D1D2818007FDA54 /* Message */,
+				EE1F2AC21D1D2818007FDA54 /* Setting */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE1F2ABE1D1D2818007FDA54 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		EE1F2ABF1D1D2818007FDA54 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EEBA4BAF1D202DB20012FE20 /* HMStatusModel.swift */,
+				EEBA4BB51D203E450012FE20 /* HMStatusUserModel.swift */,
+				EEF6240F1D20C943004AC142 /* HMPhotoModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE1F2AC01D1D2818007FDA54 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EE10A8491D1F604A0027257A /* HMUserModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EE1F2AC11D1D2818007FDA54 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		EE1F2AC21D1D2818007FDA54 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		EE1F2AC31D1D281F007FDA54 /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F2AC41D1D281F007FDA54 /* Find */,
+				EE1F2AC51D1D281F007FDA54 /* Home */,
+				EE1F2AC61D1D281F007FDA54 /* Login */,
+				EE1F2AC71D1D281F007FDA54 /* Message */,
+				EE1F2AC81D1D281F007FDA54 /* Setting */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		EE1F2AC41D1D281F007FDA54 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				EE173B641D1D49B900CED60E /* HMFindTableController.swift */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		EE1F2AC51D1D281F007FDA54 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD09F41D2CB3A300436C9C /* PhotoBrowser */,
+				EEF492AE1D2755130083B8C3 /* Emoticon */,
+				EEF3058E1D260D21007159C7 /* Publish */,
+				EEF5C5941D2433E700B18180 /* Pop */,
+				EE16AC751D23FD4F0034242D /* Cell */,
+				EE16AC7B1D23FD4F0034242D /* Refresh */,
+				EE173B661D1D49CA00CED60E /* HMHomeTableController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE1F2AC61D1D281F007FDA54 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EE13236D1D1E53F400CD26F4 /* HMVistorView.swift */,
+				EE1323711D1EB97800CD26F4 /* HMOAuthViewController.swift */,
+				EE10A84B1D1F73D30027257A /* HMWelcomeViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EE1F2AC71D1D281F007FDA54 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				EE173B681D1D49E000CED60E /* HMMessageTableController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		EE1F2AC81D1D281F007FDA54 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				EE173B6A1D1D49FD00CED60E /* HMSettingTableController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		EE1F2AC91D1D2824007FDA54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F2ACB1D1D2824007FDA54 /* Home */,
+				EE1F2ACC1D1D2824007FDA54 /* Login */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE1F2ACB1D1D2824007FDA54 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EEBA4BB11D20336A0012FE20 /* HMStatusListViewModel.swift */,
+				EEBA4BB31D2037150012FE20 /* HMStatusCellViewModel.swift */,
+				EEA5621C1D225C7400435E8E /* HMPhotoViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE1F2ACC1D1D2824007FDA54 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EEBA4BAD1D1FF8FE0012FE20 /* HMOauthViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EEF3058E1D260D21007159C7 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				EEF3058F1D260D21007159C7 /* HMPublishViewController.swift */,
+				EEF305931D26273A007159C7 /* HMComposePictureView.swift */,
+				EE0EB2241D26651900E45D46 /* HMComposePictureCollectionCell.swift */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		EEF492AE1D2755130083B8C3 /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				EE145B4E1D27D2E70048C307 /* Emoticons.bundle */,
+				EEF492AF1D2755330083B8C3 /* HMEmoticonView.swift */,
+				EEF492B11D275AA10083B8C3 /* HMEmoticonToolbar.swift */,
+				EE145B501D27E1C40048C307 /* HMEmoticonCollectionView.swift */,
+				EE145B521D27F54E0048C307 /* HMEmoticon.swift */,
+				EE145B541D27F55D0048C307 /* HMEmoticonManager.swift */,
+				EE0F3A691D29079200DFFCDE /* HMEmoticonButton.swift */,
+				EE1531681D2A52D100BBC0BC /* HMTextAttachment.swift */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		EEF5C5941D2433E700B18180 /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				EEF532D61D24F0BE0078D82C /* HMComposeButton.swift */,
+				EE167E821D253A6500E698B5 /* HMComposeView.swift */,
+			);
+			path = Pop;
+			sourceTree = "<group>";
+		};
+		EEFD09F41D2CB3A300436C9C /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EE0865A51D2CCB59001B0586 /* HMPhotoBrowserController.swift */,
+				EE2070891D2D2B0400B0D6ED /* HMPhotoBrowserCollectionView.swift */,
+				EEF6F23B1D37F2710092ED98 /* HMProgressView.swift */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE1F2AA61D1D072F007FDA54 /* 13-weibo(swift版) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1F2AB91D1D072F007FDA54 /* Build configuration list for PBXNativeTarget "13-weibo(swift版)" */;
+			buildPhases = (
+				AA43DDDE31B1E7DB9197F012 /* 📦 Check Pods Manifest.lock */,
+				EE1F2AA31D1D072F007FDA54 /* Sources */,
+				EE1F2AA41D1D072F007FDA54 /* Frameworks */,
+				EE1F2AA51D1D072F007FDA54 /* Resources */,
+				6B0FAE71A5EB03E54BC782EE /* 📦 Embed Pods Frameworks */,
+				17D6C59CEC802878469FAA86 /* 📦 Copy Pods Resources */,
+				EE10A84D1D1F7D490027257A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-weibo(swift版)";
+			productName = "13-weibo(swift版)";
+			productReference = EE1F2AA71D1D072F007FDA54 /* 13-weibo(swift版).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1F2A9F1D1D072F007FDA54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hanmeng;
+				TargetAttributes = {
+					EE1F2AA61D1D072F007FDA54 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EE1F2AA21D1D072F007FDA54 /* Build configuration list for PBXProject "13-weibo(swift版)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE1F2A9E1D1D072F007FDA54;
+			productRefGroup = EE1F2AA81D1D072F007FDA54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE1F2AA61D1D072F007FDA54 /* 13-weibo(swift版) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE1F2AA51D1D072F007FDA54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1F2AB51D1D072F007FDA54 /* LaunchScreen.storyboard in Resources */,
+				EE145B4F1D27D2E80048C307 /* Emoticons.bundle in Resources */,
+				EE1F2AB21D1D072F007FDA54 /* Assets.xcassets in Resources */,
+				EE167E811D25358700E698B5 /* compose.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D6C59CEC802878469FAA86 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-13-weibo(swift版)/Pods-13-weibo(swift版)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B0FAE71A5EB03E54BC782EE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-13-weibo(swift版)/Pods-13-weibo(swift版)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA43DDDE31B1E7DB9197F012 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE10A84D1D1F7D490027257A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:|WARNING:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE1F2AA31D1D072F007FDA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE173B6E1D1D531600CED60E /* Constant.swift in Sources */,
+				EEF492B01D2755330083B8C3 /* HMEmoticonView.swift in Sources */,
+				EE09BD5E1D2B90A400FF6380 /* HMDBManager.swift in Sources */,
+				EEF492B21D275AA10083B8C3 /* HMEmoticonToolbar.swift in Sources */,
+				EE0EB2251D26651900E45D46 /* HMComposePictureCollectionCell.swift in Sources */,
+				EE173B671D1D49CA00CED60E /* HMHomeTableController.swift in Sources */,
+				EE13236E1D1E53F400CD26F4 /* HMVistorView.swift in Sources */,
+				EE1323721D1EB97800CD26F4 /* HMOAuthViewController.swift in Sources */,
+				EEF6F23C1D37F2710092ED98 /* HMProgressView.swift in Sources */,
+				EEA5621D1D225C7400435E8E /* HMPhotoViewModel.swift in Sources */,
+				EEF624101D20C943004AC142 /* HMPhotoModel.swift in Sources */,
+				EE173BA91D1D85E300CED60E /* HMTabBar.swift in Sources */,
+				EE173B691D1D49E000CED60E /* HMMessageTableController.swift in Sources */,
+				EE10A84A1D1F604A0027257A /* HMUserModel.swift in Sources */,
+				EE16AC821D23FD4F0034242D /* HMRefreshControl.swift in Sources */,
+				EE0F3A6A1D29079200DFFCDE /* HMEmoticonButton.swift in Sources */,
+				EE173B6B1D1D49FD00CED60E /* HMSettingTableController.swift in Sources */,
+				EEBA4BB21D20336A0012FE20 /* HMStatusListViewModel.swift in Sources */,
+				EE145B511D27E1C40048C307 /* HMEmoticonCollectionView.swift in Sources */,
+				EE145B551D27F55D0048C307 /* HMEmoticonManager.swift in Sources */,
+				EE10A84C1D1F73D30027257A /* HMWelcomeViewController.swift in Sources */,
+				EE20708A1D2D2B0400B0D6ED /* HMPhotoBrowserCollectionView.swift in Sources */,
+				EEBA4BB01D202DB20012FE20 /* HMStatusModel.swift in Sources */,
+				EEF532D71D24F0BE0078D82C /* HMComposeButton.swift in Sources */,
+				EE16AC7E1D23FD4F0034242D /* HMOriginalView.swift in Sources */,
+				EE173B631D1D490500CED60E /* HMTabBarController.swift in Sources */,
+				EEF305921D260D55007159C7 /* HMHolderTextView.swift in Sources */,
+				EEBA4BAE1D1FF8FE0012FE20 /* HMOauthViewModel.swift in Sources */,
+				EE16AC801D23FD4F0034242D /* HMRetweetView.swift in Sources */,
+				EEF305901D260D21007159C7 /* HMPublishViewController.swift in Sources */,
+				EE167E831D253A6500E698B5 /* HMComposeView.swift in Sources */,
+				EE1531691D2A52D100BBC0BC /* HMTextAttachment.swift in Sources */,
+				EE16AC7D1D23FD4F0034242D /* HMHomeTableViewCell.swift in Sources */,
+				EEF305941D26273A007159C7 /* HMComposePictureView.swift in Sources */,
+				EEBA4BB41D2037150012FE20 /* HMStatusCellViewModel.swift in Sources */,
+				EE16AC7F1D23FD4F0034242D /* HMPictureView.swift in Sources */,
+				EE1F2AAB1D1D072F007FDA54 /* AppDelegate.swift in Sources */,
+				EE173B651D1D49B900CED60E /* HMFindTableController.swift in Sources */,
+				EEBA4BB61D203E450012FE20 /* HMStatusUserModel.swift in Sources */,
+				EE16AC811D23FD4F0034242D /* HMToolBarView.swift in Sources */,
+				EE0865A61D2CCB59001B0586 /* HMPhotoBrowserController.swift in Sources */,
+				EE1323701D1EA2D100CD26F4 /* HMHTTPClient.swift in Sources */,
+				EE13236C1D1E53C300CD26F4 /* HMBaseTableController.swift in Sources */,
+				EE145B531D27F54E0048C307 /* HMEmoticon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE1F2AB31D1D072F007FDA54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1F2AB41D1D072F007FDA54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE1F2AB71D1D072F007FDA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE1F2AB81D1D072F007FDA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE1F2ABA1D1D072F007FDA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A96B884D9EC99552A3C3831 /* Pods-13-weibo(swift版).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = "13-weibo(swift版)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hm.-3-weibo-swift--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE1F2ABB1D1D072F007FDA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B235CE0FD6D1632AE5FD8B99 /* Pods-13-weibo(swift版).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = "13-weibo(swift版)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hm.-3-weibo-swift--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE1F2AA21D1D072F007FDA54 /* Build configuration list for PBXProject "13-weibo(swift版)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1F2AB71D1D072F007FDA54 /* Debug */,
+				EE1F2AB81D1D072F007FDA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1F2AB91D1D072F007FDA54 /* Build configuration list for PBXNativeTarget "13-weibo(swift版)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1F2ABA1D1D072F007FDA54 /* Debug */,
+				EE1F2ABB1D1D072F007FDA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1F2A9F1D1D072F007FDA54 /* Project object */;
+}
